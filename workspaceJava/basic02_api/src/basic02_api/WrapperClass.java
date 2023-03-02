@@ -26,7 +26,6 @@ public class WrapperClass {
 		int z3 = Integer.valueOf(data); // Integer
 		System.out.println(z1*2); // 508
 		System.out.println(z2*3); // 762
-		
 	}
 	
 	public static void main(String[] args) {
