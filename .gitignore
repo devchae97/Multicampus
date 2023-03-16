@@ -3,3 +3,5 @@
 bin/
 .classpath
 .project
+META-INF/
+WEB-INF/
