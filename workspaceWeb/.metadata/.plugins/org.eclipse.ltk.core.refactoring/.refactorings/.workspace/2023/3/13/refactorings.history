@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;webJSP/src/main/webapp/jsp06_include/bottomInc&apos;" deleteContents="false" description="Delete resource &apos;webJSP/src/main/webapp/jsp06_include/bottomInc&apos;" element1="/webJSP/src/main/webapp/jsp06_include/bottomInc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1680159872552"/>
+</session>

@@ -1,0 +1,18 @@
+package basic01;
+
+public class For01 {
+	
+	public static void main(String[] args) {
+		
+		for(int i=3; i<=10; i+=3) { // 3부터 10까지 3씩 더하기
+			System.out.println(i); // 3 6 9
+		}
+		
+		for(int i=3; i<=10; i++) { // 3부터 10까지 1씩 더하기
+			if(i%3==0) { // 3 6 9
+				System.out.println(i);
+			}
+		}
+	}
+	
+}

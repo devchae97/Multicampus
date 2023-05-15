@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;webJSP/src/main/webapp/jsp06_include/bottom.jspf&apos; to &apos;bottomInc.jspf&apos;" description="Rename resource &apos;bottom.jspf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/jsp06_include/bottom.jspf" name="bottomInc.jspf" stamp="1680159888805" updateReferences="true"/>
+</session>

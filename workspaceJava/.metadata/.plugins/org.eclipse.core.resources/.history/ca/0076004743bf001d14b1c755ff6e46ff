@@ -1,0 +1,13 @@
+package mysql_jdbc;
+
+import java.util.Scanner;
+
+public class DeleteTest extends DBConn{
+	
+	Scanner scan = new Scanner(System.in);
+	SelectTest st = new SelectTest();
+	
+	public DeleteTest() {
+		
+	}
+}

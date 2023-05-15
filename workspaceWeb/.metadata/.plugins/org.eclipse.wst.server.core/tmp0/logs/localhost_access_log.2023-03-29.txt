@@ -1,0 +1,9 @@
+127.0.0.1 - - [29/Mar/2023:19:17:11 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:19:17:13 +0900] "GET /webJSP/jsp01_request/aLink.jsp HTTP/1.1" 200 313
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:19:17:13 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:19:17:15 +0900] "GET /webJSP/jsp01_request/aLinkOk.jsp?num=125&username=%ED%99%8D%EA%B8%B8%EB%8F%99&tel=010-8660-5704 HTTP/1.1" 404 821
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:19:17:53 +0900] "GET /webJSP/jsp01_request/aLink.jsp HTTP/1.1" 200 313
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:19:17:57 +0900] "GET /webJSP/jsp01_request/aLinkOk.jsp?num=125&username=%ED%99%8D%EA%B8%B8%EB%8F%99&tel=010-1234-5678 HTTP/1.1" 200 108
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:19:17:57 +0900] "GET /webJSP/img/01.jpg HTTP/1.1" 200 80719
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:20:32:35 +0900] "GET /webJSP/jsp01_request/form.jsp HTTP/1.1" 200 1442
+0:0:0:0:0:0:0:1 - - [29/Mar/2023:20:32:36 +0900] "GET /favicon.ico HTTP/1.1" 404 818

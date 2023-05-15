@@ -1,0 +1,32 @@
+package basic01;
+
+import java.util.Scanner;
+
+public class WhileEx01 {
+
+	public static void main(String[] args) {
+		
+//		화폐(동전)수 구하기
+//		50000, 10000, 5000, 1000, 500, 100, 50, 10, 5, 1
+//
+//		실행
+//		금액=254535
+//		50000원=5장
+//		1000원=4장
+//		500원=1개
+//		10원=3개
+//		5원=1개
+//		금액=
+//		:
+//		:
+		
+		Scanner scan = new Scanner(System.in);
+		
+		do {
+			System.out.print("금액=");
+			int money = scan.nextInt();
+			
+		}while(true);
+
+	}
+}

@@ -1,0 +1,48 @@
+package employees;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Scanner;
+
+import module.EmpDataSet;
+import module.EmpVO;
+
+public class EmpStart {
+
+	Scanner scan = new Scanner(System.in);
+	
+	public EmpStart() {
+		// 현재 등록되어 있는 사원목록
+		EmpDataSet.dataSet(); // 초기 데이터 세팅
+		do {
+			
+		}while(true);
+	}
+	
+	// 사원 검색
+	public void getNameSearch() {
+		System.out.print("검색할 사원명 입력 \n사원명 : ");
+		String searchName = scan.nextLine();
+		
+		// vo
+		Collection<EmpVO> list = EmpDataSet.emplist.values();
+		Iterator<EmpVO> ii = list.iterator();
+		int cnt = 0;
+		while(ii.hasNext()) {
+			EmpVO v = ii.next();
+			if(v.getEmpName().equals(searchName)) {
+				System.out.println(v.toString());
+				cnt++;
+			}
+		}
+		System.out.println(cnt + "명 검색완료");
+	}
+	
+	public String menu() {
+		return "MENU [1.사원목록, 2.사원검색, 3.사원등록, 4.사원수정, 5.사원삭제, 6.종료]\nMENU 선택 : ";
+	}
+	
+	public static void main(String[] args) {
+		new EmpStart();
+	}
+}
